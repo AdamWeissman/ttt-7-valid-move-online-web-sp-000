@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  position_not_taken?(board, index) && board[index].between?(0,8)
+  (position_not_taken?(board, index) && board[index].between?(0,8)) ? true : false
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
@@ -12,4 +12,4 @@ end
 
 b = Array.new(9, " ")
 
-puts position_taken?(b, 4)
+puts valid?(b, 4)
