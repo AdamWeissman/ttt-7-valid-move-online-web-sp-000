@@ -10,10 +10,6 @@ def position_not_taken?(board, index)
     (board[index] != " " || board[index] != "" || board[index] != nil) ? true : false
 end
 
-position_taken?(board, index)
-
-
-
 
 x = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 y = 4
