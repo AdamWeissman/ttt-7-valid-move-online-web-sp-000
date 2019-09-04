@@ -9,9 +9,3 @@ end
 def position_taken?(board, index)
     (board[index] == " " || board[index] == "" || board[index] == nil) ? false : true
 end
-
-
-x = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-y = 4
-
-puts valid_move?(x, y)
