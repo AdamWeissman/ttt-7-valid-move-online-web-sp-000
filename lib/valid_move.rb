@@ -9,7 +9,3 @@ end
 def position_not_taken?(board, index)
     (board[index] != " " || board[index] != "" || board[index] != nil) ? true : false
 end
-
-b = Array.new(9, " ")
-
-puts valid?(b, 4)
