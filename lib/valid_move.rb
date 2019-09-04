@@ -9,3 +9,7 @@ end
 def position_taken?(board, index)
   (board[index] == " " || board[index] == "" || board[index] == nil) ? false : true
 end
+
+b = Array.new(9, " ")
+
+position_taken(b, 4)
