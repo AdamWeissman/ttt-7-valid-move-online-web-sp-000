@@ -12,4 +12,4 @@ end
 
 b = Array.new(9, " ")
 
-position_taken?(b, 4)
+puts position_taken?(b, 4)
