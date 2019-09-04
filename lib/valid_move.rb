@@ -9,3 +9,9 @@ end
 def position_not_taken?(board, index)
     (board[index] != " " || board[index] != "" || board[index] != nil || board[index] != "X" || board[index] != "O") ? true : false
 end
+
+
+x = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+y = 4
+
+puts valid_move?(x, y)
