@@ -7,7 +7,7 @@ end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
 def position_taken?(board, index)
-    (board[index] == " " || board[index] == "" || board[index] == nil) ? false : true if index.between?(0,8)
+    (board[index] == " " || board[index] == "" || board[index] == nil) ? true : false
 end
 
 b = Array.new(9, " ")
